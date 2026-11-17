@@ -55,5 +55,3 @@ src/
 - Standardised category spelling (e.g. "food", "Food ", "  Food " → Food); set one blank category to Food (note "Dinner", Meal? = Meal)
 - Treated 3 USD-labelled rows as INR (amounts only make sense in rupees)
 - Filled 4 blank notes with "(No note)"; flagged ambiguous records without changing them
-
-Prepared by Piyachat Kamklat (Eve).
