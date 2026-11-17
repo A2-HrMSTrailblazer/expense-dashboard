@@ -1,0 +1,178 @@
+[
+ {
+  "n": 1,
+  "step": "Duplicate removed",
+  "rows_in_original": "279",
+  "before": "Copy of row 2",
+  "after": "Removed",
+  "reason": "Exact copy of an earlier row, appended out of date order at the end of the file."
+ },
+ {
+  "n": 2,
+  "step": "Duplicate removed",
+  "rows_in_original": "280",
+  "before": "Copy of row 30",
+  "after": "Removed",
+  "reason": "Exact copy of an earlier row, appended out of date order at the end of the file."
+ },
+ {
+  "n": 3,
+  "step": "Duplicate removed",
+  "rows_in_original": "281",
+  "before": "Copy of row 100",
+  "after": "Removed",
+  "reason": "Exact copy of an earlier row, appended out of date order at the end of the file."
+ },
+ {
+  "n": 4,
+  "step": "Date format",
+  "rows_in_original": "98",
+  "before": "44580",
+  "after": "2022-01-19",
+  "reason": "Date stored as an Excel serial number instead of a date; converted."
+ },
+ {
+  "n": 5,
+  "step": "Category text",
+  "rows_in_original": "6",
+  "before": "'  Food '",
+  "after": "Food",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 6,
+  "step": "Category text",
+  "rows_in_original": "262",
+  "before": "'Petty cash'",
+  "after": "Petty Cash",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 7,
+  "step": "Category text",
+  "rows_in_original": "172",
+  "before": "'Self-development'",
+  "after": "Self-Development",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 8,
+  "step": "Category text",
+  "rows_in_original": "15",
+  "before": "'Social life'",
+  "after": "Social Life",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 9,
+  "step": "Category text",
+  "rows_in_original": "29",
+  "before": "'Transportation '",
+  "after": "Transportation",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 10,
+  "step": "Category text",
+  "rows_in_original": "2",
+  "before": "'food'",
+  "after": "Food",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 11,
+  "step": "Category text",
+  "rows_in_original": "9",
+  "before": "'food '",
+  "after": "Food",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 12,
+  "step": "Category text",
+  "rows_in_original": "19",
+  "before": "'household'",
+  "after": "Household",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 13,
+  "step": "Category text",
+  "rows_in_original": "25",
+  "before": "'transportation'",
+  "after": "Transportation",
+  "reason": "Inconsistent capitalisation / leading or trailing spaces split one category into several."
+ },
+ {
+  "n": 14,
+  "step": "Missing category",
+  "rows_in_original": "4",
+  "before": "(blank)",
+  "after": "Food",
+  "reason": "Note is 'Dinner' and Meal? = 'Meal', so the transaction is a food purchase."
+ },
+ {
+  "n": 15,
+  "step": "Currency",
+  "rows_in_original": "12",
+  "before": "25 USD",
+  "after": "25 INR",
+  "reason": "'no note' at 25 only makes sense in rupees (x75 would be ~INR 1,875). Treated as a labelling error; all other rows are INR."
+ },
+ {
+  "n": 16,
+  "step": "Currency",
+  "rows_in_original": "25",
+  "before": "120 USD",
+  "after": "120 INR",
+  "reason": "'Auto to laxmi mills' at 120 only makes sense in rupees (x75 would be ~INR 9,000). Treated as a labelling error; all other rows are INR."
+ },
+ {
+  "n": 17,
+  "step": "Currency",
+  "rows_in_original": "219",
+  "before": "15 USD",
+  "after": "15 INR",
+  "reason": "'5 star' at 15 only makes sense in rupees (x75 would be ~INR 1,125). Treated as a labelling error; all other rows are INR."
+ },
+ {
+  "n": 18,
+  "step": "Missing note",
+  "rows_in_original": "12",
+  "before": "(blank)",
+  "after": "(No note)",
+  "reason": "Placeholder so filters/lookups do not treat it as empty; amount kept."
+ },
+ {
+  "n": 19,
+  "step": "Missing note",
+  "rows_in_original": "15",
+  "before": "(blank)",
+  "after": "(No note)",
+  "reason": "Placeholder so filters/lookups do not treat it as empty; amount kept."
+ },
+ {
+  "n": 20,
+  "step": "Missing note",
+  "rows_in_original": "18",
+  "before": "(blank)",
+  "after": "(No note)",
+  "reason": "Placeholder so filters/lookups do not treat it as empty; amount kept."
+ },
+ {
+  "n": 21,
+  "step": "Missing note",
+  "rows_in_original": "19",
+  "before": "(blank)",
+  "after": "(No note)",
+  "reason": "Placeholder so filters/lookups do not treat it as empty; amount kept."
+ },
+ {
+  "n": 22,
+  "step": "Flagged, not changed",
+  "rows_in_original": "160, 164, 137, 34",
+  "before": "see Flag column",
+  "after": "unchanged",
+  "reason": "Ambiguous records left as-is so totals are not altered by guesswork; listed for review."
+ }
+]
